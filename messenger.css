@@ -95,10 +95,12 @@ body {
   margin-top: 27px;
   margin-bottom: 35px;
   cursor: pointer;
+  border: 2px solid #0f75ff;
 }
 
 .Button:hover {
   background-color: #4d4dff;
+  border: 2px solid #4d4dff;
 }
 
 .lotIn {
@@ -134,6 +136,8 @@ body {
 }
 
 @media (max-width: 1200px) {
+  .navber {
+  }
   .lineParent {
     cursor: pointer;
   }

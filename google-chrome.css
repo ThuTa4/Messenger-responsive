@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-image: url("https://images7.alphacoders.com/116/1161810.jpg");
+  background-repeat: no-repeat;
+  z-index: 40;
+}
+
+.header {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: end;
+  margin-top: -3px;
+}
+
+.aTag {
+  text-decoration: none;
+  color: #e8e8e8;
+  margin-right: 14px;
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.font1 {
+  width: 50px;
+  height: auto;
+  font-size: 25px;
+  color: #e8e8e8;
+}
+
+.fa-solid {
+  margin-left: 7px;
+}
+
+.aTag:hover {
+  text-decoration: underline;
+}
+
+.image {
+  border-radius: 15px;
+  margin-right: 13px;
+}
+
+.title {
+  font-family: "Roboto", sans-serif;
+  font-size: 90px;
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #eeeeee;
+  margin-top: 35px;
+}
+
+.container {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inputContainer {
+  width: 550px;
+  padding: 10px 20px;
+  border-radius: 25px;
+  border-style: none;
+  background-color: #eeeeee;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.input {
+  width: 100%;
+  padding: 4px 5px;
+  border-style: none;
+  background-color: #eeeeee;
+  font-size: 15px;
+  outline: none;
+  height: 100%;
+}
+
+.iconContainer {
+  min-width: 50px;
+}
+
+.icon2,
+.icon3 {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.icon2 {
+  margin-right: 10px;
+}
+
+.icon1 {
+  display: flex;
+  align-items: center;
+  padding-right: 8px;
+}
