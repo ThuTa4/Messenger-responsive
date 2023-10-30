@@ -72,6 +72,7 @@ body {
 
 .inputContainer {
   width: 550px;
+  height: auto;
   padding: 10px 20px;
   border-radius: 25px;
   border-style: none;
@@ -80,7 +81,7 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  margin-top: 15px;
+  margin-top: 40px;
 }
 
 .input {
@@ -111,4 +112,39 @@ body {
   display: flex;
   align-items: center;
   padding-right: 8px;
+}
+
+.secondContainer {
+  width: 600px;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+}
+
+.app {
+  width: 120px;
+  height: 110px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 35px;
+  margin-right: 17px;
+  margin-left: 10px;
+}
+
+.appChild {
+  width: 50px;
+  height: 80px;
+  border-radius: 25px;
+  color: #f8f9fa;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+}
+
+.appChildImage {
+  border-radius: 25px;
+  background-color: #34363a;
+  border: 10px solid #34363a;
+  margin-bottom: 7px;
 }
