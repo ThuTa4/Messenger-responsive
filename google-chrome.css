@@ -126,20 +126,30 @@ body {
   height: 110px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  margin-top: 35px;
   align-items: center;
-  padding-top: 35px;
+  justify-content: center;
   margin-right: 17px;
   margin-left: 10px;
+  border-radius: 5px;
 }
 
 .appChild {
-  width: 50px;
-  height: 80px;
+  width: 100%;
+  height: 100%;
   border-radius: 25px;
   color: #f8f9fa;
   font-family: "Roboto", sans-serif;
   font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.app:hover {
+  background-color: #ffffff35;
+  z-index: 1;
+  cursor: pointer;
 }
 
 .appChildImage {
@@ -147,4 +157,20 @@ body {
   background-color: #34363a;
   border: 10px solid #34363a;
   margin-bottom: 7px;
+}
+
+.appChildImage2 {
+  border-radius: 55px;
+  background-color: #34363a;
+  border: 22px solid #34363a;
+  margin-bottom: 7px;
+}
+
+.plusIcon {
+  border-radius: 55px;
+  background-color: #34363a;
+  border: 13px solid #34363a;
+  color: #ffffff;
+  margin-bottom: 7px;
+  font-size: 15px;
 }
