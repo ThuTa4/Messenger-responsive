@@ -6,7 +6,7 @@ body {
   height: 100vh;
   background-size: cover;
   background-position: center;
-  background-image: url("https://images7.alphacoders.com/116/1161810.jpg");
+  background-image: url("./1161810.jpg");
   background-repeat: no-repeat;
   z-index: 40;
 }
