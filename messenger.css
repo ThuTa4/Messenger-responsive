@@ -115,6 +115,7 @@ body {
   display: block;
   margin-bottom: 30px;
   cursor: pointer;
+  user-select: none;
 }
 
 .imgTag1 {
@@ -122,9 +123,11 @@ body {
   height: auto;
   padding-right: 6px;
   cursor: pointer;
+  user-select: none;
 }
 .imgTag2 {
   cursor: pointer;
+  user-select: none;
 }
 
 .rightContainer {
